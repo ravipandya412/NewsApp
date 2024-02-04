@@ -6,4 +6,5 @@ object Versions {
    const val material =  "1.9.0"
    const val hilt = "2.48"
    const val hiltCompiler = "1.0.0-alpha01"
+   const val hiltNavigationCompose = "1.1.0"
 }

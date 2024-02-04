@@ -12,6 +12,7 @@ object Dependencies {
     val composeUITestManifest by lazy { "androidx.compose.ui:ui-test-manifest" }
     val hiltAndroid by lazy { "com.google.dagger:hilt-android:${Versions.hilt}" }
     val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hilt}" }
+    val hiltNavigationCompose by lazy { "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}" }
 }
 
 object Modules {
