@@ -10,9 +10,23 @@ object Dependencies {
     val composeMaterial3 by lazy { "androidx.compose.material3:material3" }
     val composeUITooling by lazy { "androidx.compose.ui:ui-tooling" }
     val composeUITestManifest by lazy { "androidx.compose.ui:ui-test-manifest" }
+
+    //Hilt
     val hiltAndroid by lazy { "com.google.dagger:hilt-android:${Versions.hilt}" }
     val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hilt}" }
     val hiltNavigationCompose by lazy { "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}" }
+
+    //Retrofit
+    val retrofit by lazy { "com.squareup.retrofit2:retrofit:${Versions.retrofit}" }
+    val gsonConverter by lazy { "com.squareup.retrofit2:converter-gson:${Versions.gsonConverter}" }
+    val moshi by lazy { "com.squareup.moshi:moshi-kotlin:${Versions.moshi}" }
+    val moshiConverter by lazy { "com.squareup.retrofit2:converter-moshi:${Versions.moshiConverter}" }
+    val okhttp by lazy { "com.squareup.okhttp3:okhttp:${Versions.okhttp}" }
+    val loggingInterceptor by lazy { "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}" }
+
+    //Coroutine
+    val coroutineCore by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutine}" }
+    val coroutineAndroid by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutine}" }
 }
 
 object Modules {

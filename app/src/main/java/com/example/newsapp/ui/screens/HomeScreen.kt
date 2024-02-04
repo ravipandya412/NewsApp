@@ -7,12 +7,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.newsapp.ui.viewmodel.NewsViewModel
 
 @Composable
-fun HomeScreen() {
-    Surface(modifier = Modifier
-        .fillMaxSize()
-        .background(Color.White)) {
+fun HomeScreen(
+    newsViewModel: NewsViewModel = hiltViewModel()
+) {
+    Surface(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.White)
+    ) {
 
     }
 }
