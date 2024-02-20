@@ -1,4 +1,4 @@
-This News app us built using :<br />
+This News app is built using :<br />
 - Jetpack Compose for UI<br /> 
 - UI + DATA + DI Layers<br />
 - MVVM + Modular Architecture<br />
