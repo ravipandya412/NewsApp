@@ -10,6 +10,6 @@ interface ApiService {
     @GET("v2/top-headlines")
    suspend fun getNewsHeadline(
         @Query("country") country: String,
-        @Query("apiKey") apiKey: String = "YOUR_API_KEY"
+        @Query("apiKey") apiKey: String = "b87c76dce09d40baa85b08cba3b7ed7f"
     ): Response<NewsResponse>
 }
