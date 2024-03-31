@@ -1,4 +1,4 @@
-package com.example.newsapp.ui.repository
+package com.example.newsapp.domain.repository
 
 import com.example.newsapp.data.datasource.NewsDataSource
 import com.example.newsapp.data.entity.NewsResponse
